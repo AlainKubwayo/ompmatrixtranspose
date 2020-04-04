@@ -1,0 +1,11 @@
+Follow instructions below to clone this Git Repo to your local directory:
+
+1. Open your terminal
+2. type command: git clone https://github.com/AlainKubwayo/ompmatrixtranspose.git
+3. The local directory named "ompmatrixtranspose" will be created on your local machine
+
+Alternatively:
+
+1. Go to GitHub.com
+2. Search for the username "AlainKubwayo"
+3. Go to repository to select the one called "ompmatrixtranspose" to clone or download the entire directory to your local machine
