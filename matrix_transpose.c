@@ -2,13 +2,11 @@
 		Parallel and Distributed Computing
 			Spring Semester:2020
 
-Exercise 		: matrix_transpose.c
+Filename 		: matrix_transpose.c
 
 Task			: Write an OpenMP Program that computes the transpose of a matrix.
 
 Input			: Number of threads and the size of matrix (nRows and nCols)
-
-Output			: Each thread is assigned a row to transpose and the master will, in the end, print the transposed matrix.
 
 Created			: 04-April-2020
 
@@ -59,14 +57,13 @@ int main(int argc, char **argv){
 	}
 
 	/* Elements of the matrix */
-/*	A=(float **) malloc(sizeof(float *)* nRows);
+	A=(float **) malloc(sizeof(float *)* nRows);
 	for(i=0; i<nRows; i++){
 		A[i] = (float *) malloc(sizeof(float) * nCols);
 		for(j=0; j<nCols;j++)
-			A[i][j] = (i*j)*5+1;
-	}*/
-
-	/* Statically assigning elements to A */
+			A[i][j] = (i*j)*7+5;
+	}
+	
 
 
 	/* Dynamic Memory Allocation */
@@ -138,10 +135,10 @@ int main(int argc, char **argv){
 /*	flops = (float) 2 *nRows * nCols / (float overheadT; */
 /*	printf("Time taken: %lf \n Flops = %f Flops\n", timeOverhead, flops); */
 
-	printf("\n\n\t\t T is ...........Done");
+	printf("\n\n\t\t T is ... Done");
 	printf("\n\n\t\t Time in secs (t) : %lf", overheadT);
 	printf("\n\n\t\t (t represents the time taken for computation)");
-	printf("\n\t\t.........................................\n");
+	printf("\n\t\t....................................................\n");
 
 	/* Freeing Allocated memory */
 	free(A);
