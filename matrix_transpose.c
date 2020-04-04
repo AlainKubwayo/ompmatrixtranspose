@@ -132,8 +132,8 @@ int main(int argc, char **argv){
 
 	/*Calculating flops */
 
-/*	flops = (float) 2 *nRows * nCols / (float overheadT; */
-/*	printf("Time taken: %lf \n Flops = %f Flops\n", timeOverhead, flops); */
+	flops = (float) 2 *nRows * nCols / (float) overheadT; 
+	printf("Time taken: %lf \n Flops = %f Flops\n", overheadT, flops); 
 
 	printf("\n\n\t\t T is ... Done");
 	printf("\n\n\t\t Time in secs (t) : %lf", overheadT);
